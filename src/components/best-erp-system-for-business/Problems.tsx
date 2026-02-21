@@ -5,39 +5,39 @@ import React from 'react';
 const Problems: React.FC = () => {
   const items = [
     { 
-      title: 'Managing Business Operations in Excel?', 
-      text: 'Multiple spreadsheets causing confusion, data errors, and lack of real-time visibility for Delhi businesses.' 
+      title: 'Still Managing Your Business in Excel?', 
+      text: 'Multiple spreadsheets create confusion, errors, and zero real-time visibility for growing businesses in Delhi.' 
     },
     { 
-      title: 'Inventory mismatches in your Delhi warehouse?', 
-      text: 'Stock differences leading to overstock, stockouts, and delayed customer deliveries.' 
+      title: 'Inventory Issues in Your Delhi Warehouse?', 
+      text: 'Stock mismatches causing overstock, stockouts, and delayed deliveries affecting customer trust.' 
     },
     { 
-      title: 'No centralized system for accounting & GST?', 
-      text: 'Manual entries increasing compliance risks and financial reporting errors.' 
+      title: 'No Integrated Accounting & GST System?', 
+      text: 'Manual accounting processes increase compliance risks and create financial inaccuracies.' 
     },
     { 
-      title: 'Sales, CRM & follow-ups not tracked properly?', 
-      text: 'Lost leads and missed revenue opportunities due to unstructured processes.' 
+      title: 'Sales & CRM Not Properly Managed?', 
+      text: 'Untracked leads and missed follow-ups result in lost revenue opportunities.' 
     },
     { 
-      title: 'No real-time business reports?', 
-      text: 'Decision-making becomes slow without clear dashboards and performance insights.' 
+      title: 'Lack of Real-Time Business Reports?', 
+      text: 'Without live dashboards and performance insights, decision-making becomes slow and reactive.' 
     },
     { 
-      title: 'Operations scattered across departments?', 
-      text: 'Lack of integration between sales, inventory, accounts, and operations affecting growth.' 
+      title: 'Departments Working in Silos?', 
+      text: 'Disconnected sales, inventory, accounts, and operations limit scalability and growth.' 
     }
   ];
 
   return (
     <section className="py-16 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
-        <h3 className="text-3xl font-extrabold text-center mb-3">
-          Facing These Business Challenges in Delhi?
-        </h3>
+        <h2 className="text-3xl font-extrabold text-center mb-3">
+          Why Businesses in Delhi Need the Best ERP System
+        </h2>
         <p className="text-center text-slate-500 mb-8">
-          Without the best ERP software in Delhi, these issues directly impact your profits and growth.
+          Without a centralized ERP system for business in Delhi, these operational challenges directly impact profitability and long-term growth.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {items.map((it, i) => (

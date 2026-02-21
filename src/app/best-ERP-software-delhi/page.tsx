@@ -78,7 +78,7 @@ const bsetERPsoftwarePage: React.FC = () => {
         <Testimonials />
         <FAQ />
         <LeadForm />
-        <Keywords />
+        {/* <Keywords /> */}
       </main>
 
       <Footer />

@@ -1,57 +1,74 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const FAQ: React.FC = () => {
+const DelhiERPFAQ: React.FC = () => {
   const faqs = [
-    { 
-      q: 'Why should Delhi businesses invest in ERP software?', 
-      a: 'Delhi NCR businesses operate in a highly competitive market. ERP software helps centralize inventory, accounting, sales, and operations into one system, improving efficiency and profitability.' 
+    {
+      q: "Which is the best ERP system for businesses in Delhi?",
+      a: "The best ERP system for Delhi businesses is one that integrates sales, accounting, inventory, CRM, and reporting into a single platform. BizPlusERP is designed specifically for Delhi-based SMEs, traders, distributors, and manufacturers looking for complete business automation.",
     },
-    { 
-      q: 'Is BizPlusERP suitable for small and mid-sized companies in Delhi?', 
-      a: 'Yes, BizPlusERP is designed for SMEs, traders, distributors, and manufacturers. It scales as your business grows and does not require heavy IT infrastructure.' 
+    {
+      q: "How much does ERP software cost in Delhi?",
+      a: "ERP software pricing in Delhi depends on business size, number of users, and required modules. BizPlusERP offers flexible and affordable pricing models suitable for small and mid-sized companies without heavy upfront investment.",
     },
-    { 
-      q: 'Can the ERP system handle multi-branch operations across Delhi NCR?', 
-      a: 'Absolutely. Our ERP allows you to manage multiple warehouses, offices, or retail branches from a single centralized dashboard.' 
+    {
+      q: "Is cloud-based ERP better for Delhi businesses?",
+      a: "Yes. Cloud ERP allows Delhi businesses to access data anytime, from multiple locations, without maintaining physical servers. It ensures secure backups, real-time reporting, and remote accessibility.",
     },
-    { 
-      q: 'Does the ERP support inventory and warehouse management?', 
-      a: 'Yes, the system provides real-time inventory tracking, stock valuation, warehouse control, and automated reorder alerts to prevent stockouts or overstocking.' 
+    {
+      q: "Can ERP software manage GST billing and compliance?",
+      a: "Absolutely. BizPlusERP supports GST billing, automated tax calculations, ledger management, and financial reporting, helping Delhi companies stay compliant with Indian tax regulations.",
     },
-    { 
-      q: 'How secure is our business data in the ERP system?', 
-      a: 'BizPlusERP uses secure cloud infrastructure with role-based access, encrypted data storage, and regular backups to ensure complete data protection.' 
+    {
+      q: "Does the ERP system support multi-location operations in Delhi NCR?",
+      a: "Yes. The system allows centralized control over multiple warehouses, offices, or retail branches across Delhi NCR with real-time inventory and financial visibility.",
     },
-    { 
-      q: 'How can I get a demo of the best ERP software in Delhi?', 
-      a: 'You can book a free consultation or request a live demo. Our team will understand your business requirements and show how the ERP can streamline your operations.' 
-    }
+    {
+      q: "How long does it take to implement ERP for a business in Delhi?",
+      a: "Implementation time depends on business complexity, but most small and mid-sized businesses can go live within a few weeks with proper data migration and team training support.",
+    },
   ];
 
   const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="py-16 bg-white">
+    <section id="faq" className="py-20 bg-white border-t border-slate-200">
       <div className="max-w-3xl mx-auto px-6">
-        <h3 className="text-3xl font-extrabold text-center mb-6">
-          Frequently Asked Questions – Delhi NCR
-        </h3>
-        <div className="space-y-4">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-sky-700 mb-4">
+            Frequently Asked Questions – Best ERP Software in Delhi
+          </h2>
+          <p className="text-slate-600">
+            Get answers to common questions about choosing and implementing
+            ERP software for businesses in Delhi NCR.
+          </p>
+        </div>
+
+        <div className="space-y-5">
           {faqs.map((f, i) => (
-            <div key={i} className={`p-4 rounded-2xl bg-slate-50 border ${open === i ? 'border-sky-100 shadow-md' : 'border-transparent'}`}>
-              <button 
-                onClick={() => setOpen(open === i ? null : i)} 
+            <div
+              key={i}
+              className={`p-5 rounded-2xl bg-slate-50 border transition-all duration-300 ${
+                open === i
+                  ? "border-sky-200 shadow-md"
+                  : "border-transparent"
+              }`}
+            >
+              <button
+                onClick={() => setOpen(open === i ? null : i)}
                 className="w-full flex items-center justify-between"
               >
-                <h4 className="font-bold text-left">{f.q}</h4>
-                <div className="w-8 h-8 bg-sky-700 text-white rounded-lg flex items-center justify-center">
-                  {open === i ? '-' : '+'}
+                <h3 className="font-semibold text-left text-slate-800">
+                  {f.q}
+                </h3>
+                <div className="w-8 h-8 bg-sky-700 text-white rounded-lg flex items-center justify-center font-bold">
+                  {open === i ? "-" : "+"}
                 </div>
               </button>
+
               {open === i && (
-                <div className="mt-3 text-slate-600">
+                <div className="mt-4 text-slate-600 leading-relaxed">
                   {f.a}
                 </div>
               )}
@@ -63,4 +80,4 @@ const FAQ: React.FC = () => {
   );
 };
 
-export default FAQ;
+export default DelhiERPFAQ;
