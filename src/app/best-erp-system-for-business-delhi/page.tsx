@@ -21,44 +21,50 @@ import Keywords from '@/components/best-erp-system-for-business/Keywords';
 
 export const metadata = {
   title: "Best ERP System for Business in Delhi | BizPlusERP",
-  description: "Best ERP System for Business in Delhi for inventory management, accounting, CRM, billing, and business automation. Trusted by growing businesses across Delhi NCR. Schedule a free demo today.", 
-  keywords: [
-    "Best ERP system for business in Delhi",
-    "BizPlusERP Delhi",
-    "Top ERP system in Delhi NCR",
-    "Business ERP system Delhi",
-    "ERP system provider in Delhi",
-    "Best ERP software for small business Delhi",
-    "Cloud ERP system Delhi NCR",
-    "Affordable ERP system Delhi",
-    "Inventory management ERP system Delhi",
-    "Accounting and billing ERP Delhi",
-    "CRM integrated ERP system Delhi",
-    "GST compliant ERP system Delhi",
-    "All-in-one business ERP Delhi",
-    "Enterprise resource planning system Delhi",
-    "ERP for growing businesses Delhi",
-    "Complete business automation ERP Delhi",
-    "Multi-location ERP system Delhi NCR",
-    "Customizable ERP system Delhi",
-    "SME ERP system Delhi",
-    "BizPlusERP business software Delhi"
-          ],
-  alternates: {
-    canonical: "https://www.yourdomain.com/best-erp-system-for-business-delhi"
-  },
-  openGraph: {
-    title: "Best ERP System for Business in Delhi | BizPlusERP",
-    description: "Looking for the best ERP system for business in Delhi? BizPlusERP offers inventory, accounting, CRM, billing, and complete business automation solutions for SMEs. Book a free demo today.",
-    url: "https://www.yourdomain.com/best-erp-system-for-business-delhi",
-    siteName: "BizPlusERP",
-    images: [
-      {
-        url: "https://www.yourdomain.com/og-image.jpg",
-      },
-    ],
-    type: "website",
-  },
+
+description:
+  "Best ERP system for business in Delhi. Manage inventory, accounting, CRM, GST billing, and operations with BizPlusERP. Trusted by Delhi NCR businesses. Schedule a free demo today.",
+
+keywords: [
+  "Best ERP system for business in Delhi",
+  "Business ERP software Delhi",
+  "Top ERP system Delhi NCR",
+  "Cloud ERP system Delhi",
+  "ERP software for small business Delhi",
+  "Inventory management ERP Delhi",
+  "Accounting and GST billing software Delhi",
+  "CRM integrated ERP system Delhi",
+  "Affordable ERP solution Delhi",
+  "All-in-one business ERP Delhi",
+  "Enterprise resource planning Delhi NCR",
+  "SME ERP software Delhi",
+  "Multi-location ERP system Delhi",
+  "Business automation software Delhi",
+  "ERP provider in Delhi NCR",
+  "BizPlusERP Delhi",
+  "Business management software Delhi",
+  "GST compliant ERP Delhi",
+  "Complete ERP solution Delhi",
+  "ERP for growing businesses Delhi"
+],
+
+alternates: {
+  canonical: "https://www.yourdomain.com/best-erp-system-for-business-delhi"
+},
+
+openGraph: {
+  title: "Best ERP System for Business in Delhi | BizPlusERP",
+  description:
+    "Streamline your business operations in Delhi with BizPlusERP. Control inventory, accounting, CRM, GST billing, and multi-branch management in one powerful cloud-based ERP system.",
+  url: "https://www.yourdomain.com/best-erp-system-for-business-delhi",
+  siteName: "BizPlusERP",
+  images: [
+    {
+      url: "https://www.yourdomain.com/og-image.jpg",
+    },
+  ],
+  type: "website",
+},
 };
 
 const bsetERPsoftwarePage: React.FC = () => {
