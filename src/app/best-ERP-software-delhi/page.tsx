@@ -2,21 +2,21 @@
 
 import React from 'react';
 import type { Metadata } from 'next';
-import Header from '@/components/best-ERP-software/Header';
-import Hero from '@/components/best-ERP-software/Hero';
-import Problems from '@/components/best-ERP-software/Problems';
-import Modules from '@/components/best-ERP-software/Modules';
-import DashboardSummary from '@/components/best-ERP-software/DashboardSummary';
-import Offer from '@/components/best-ERP-software/Offer';
-import Comparison from '@/components/best-ERP-software/Comparison';
-import Benefits from '@/components/best-ERP-software/Benefits';
-import Testimonials from '@/components/best-ERP-software/Testimonials';
-import FAQ from '@/components/best-ERP-software/FAQ';
-import LeadForm from '@/components/best-ERP-software/LeadForm';
-import Footer from '@/components/best-ERP-software/Footer';
-import BundleCRM from '@/components/best-ERP-software/BundleCRM';
-import FloatingActions from '@/components/best-ERP-software/FloatingActions';
-import Keywords from '@/components/best-ERP-software/Keywords';
+import Header from '@/components/best-erp-software/Header';
+import Hero from '@/components/best-erp-software/Hero';
+import Problems from '@/components/best-erp-software/Problems';
+import Modules from '@/components/best-erp-software/Modules';
+import DashboardSummary from '@/components/best-erp-software/DashboardSummary';
+import Offer from '@/components/best-erp-software/Offer';
+import Comparison from '@/components/best-erp-software/Comparison';
+import Benefits from '@/components/best-erp-software/Benefits';
+import Testimonials from '@/components/best-erp-software/Testimonials';
+import FAQ from '@/components/best-erp-software/FAQ';
+import LeadForm from '@/components/best-erp-software/LeadForm';
+import Footer from '@/components/best-erp-software/Footer';
+import BundleCRM from '@/components/best-erp-software/BundleCRM';
+import FloatingActions from '@/components/best-erp-software/FloatingActions';
+import Keywords from '@/components/best-erp-software/Keywords';
 
 
 export const metadata = {
